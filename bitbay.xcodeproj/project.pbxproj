@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D420094D500018DD5D /* AppDelegate.swift */; };
+		981EE0D720094D500018DD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D620094D500018DD5D /* ViewController.swift */; };
+		981EE0D920094D500018DD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0D820094D500018DD5D /* Assets.xcassets */; };
+		981EE0DC20094D500018DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0DA20094D500018DD5D /* Main.storyboard */; };
+		981EE0E820094D500018DD5D /* bitbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0E720094D500018DD5D /* bitbayTests.swift */; };
+		981EE0F320094D500018DD5D /* bitbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0F220094D500018DD5D /* bitbayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		981EE0E420094D500018DD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981EE0C920094D500018DD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981EE0D020094D500018DD5D;
+			remoteInfo = bitbay;
+		};
+		981EE0EF20094D500018DD5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 981EE0C920094D500018DD5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 981EE0D020094D500018DD5D;
+			remoteInfo = bitbay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		981EE0D120094D500018DD5D /* bitbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitbay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		981EE0D420094D500018DD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		981EE0D620094D500018DD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		981EE0D820094D500018DD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		981EE0DB20094D500018DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		981EE0DD20094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981EE0DE20094D500018DD5D /* bitbay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bitbay.entitlements; sourceTree = "<group>"; };
+		981EE0E320094D500018DD5D /* bitbayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitbayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981EE0E720094D500018DD5D /* bitbayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitbayTests.swift; sourceTree = "<group>"; };
+		981EE0E920094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981EE0EE20094D500018DD5D /* bitbayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitbayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		981EE0F220094D500018DD5D /* bitbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitbayUITests.swift; sourceTree = "<group>"; };
+		981EE0F420094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		981EE0CE20094D500018DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0E020094D500018DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0EB20094D500018DD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		981EE0C820094D500018DD5D = {
+			isa = PBXGroup;
+			children = (
+				981EE0D320094D500018DD5D /* bitbay */,
+				981EE0E620094D500018DD5D /* bitbayTests */,
+				981EE0F120094D500018DD5D /* bitbayUITests */,
+				981EE0D220094D500018DD5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		981EE0D220094D500018DD5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981EE0D120094D500018DD5D /* bitbay.app */,
+				981EE0E320094D500018DD5D /* bitbayTests.xctest */,
+				981EE0EE20094D500018DD5D /* bitbayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981EE0D320094D500018DD5D /* bitbay */ = {
+			isa = PBXGroup;
+			children = (
+				981EE0D420094D500018DD5D /* AppDelegate.swift */,
+				981EE0D620094D500018DD5D /* ViewController.swift */,
+				981EE0D820094D500018DD5D /* Assets.xcassets */,
+				981EE0DA20094D500018DD5D /* Main.storyboard */,
+				981EE0DD20094D500018DD5D /* Info.plist */,
+				981EE0DE20094D500018DD5D /* bitbay.entitlements */,
+			);
+			path = bitbay;
+			sourceTree = "<group>";
+		};
+		981EE0E620094D500018DD5D /* bitbayTests */ = {
+			isa = PBXGroup;
+			children = (
+				981EE0E720094D500018DD5D /* bitbayTests.swift */,
+				981EE0E920094D500018DD5D /* Info.plist */,
+			);
+			path = bitbayTests;
+			sourceTree = "<group>";
+		};
+		981EE0F120094D500018DD5D /* bitbayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				981EE0F220094D500018DD5D /* bitbayUITests.swift */,
+				981EE0F420094D500018DD5D /* Info.plist */,
+			);
+			path = bitbayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		981EE0D020094D500018DD5D /* bitbay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981EE0F720094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbay" */;
+			buildPhases = (
+				981EE0CD20094D500018DD5D /* Sources */,
+				981EE0CE20094D500018DD5D /* Frameworks */,
+				981EE0CF20094D500018DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitbay;
+			productName = bitbay;
+			productReference = 981EE0D120094D500018DD5D /* bitbay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		981EE0E220094D500018DD5D /* bitbayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981EE0FA20094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbayTests" */;
+			buildPhases = (
+				981EE0DF20094D500018DD5D /* Sources */,
+				981EE0E020094D500018DD5D /* Frameworks */,
+				981EE0E120094D500018DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981EE0E520094D500018DD5D /* PBXTargetDependency */,
+			);
+			name = bitbayTests;
+			productName = bitbayTests;
+			productReference = 981EE0E320094D500018DD5D /* bitbayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		981EE0ED20094D500018DD5D /* bitbayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981EE0FD20094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbayUITests" */;
+			buildPhases = (
+				981EE0EA20094D500018DD5D /* Sources */,
+				981EE0EB20094D500018DD5D /* Frameworks */,
+				981EE0EC20094D500018DD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				981EE0F020094D500018DD5D /* PBXTargetDependency */,
+			);
+			name = bitbayUITests;
+			productName = bitbayUITests;
+			productReference = 981EE0EE20094D500018DD5D /* bitbayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		981EE0C920094D500018DD5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bartosz Walendziuk";
+				TargetAttributes = {
+					981EE0D020094D500018DD5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					981EE0E220094D500018DD5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 981EE0D020094D500018DD5D;
+					};
+					981EE0ED20094D500018DD5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 981EE0D020094D500018DD5D;
+					};
+				};
+			};
+			buildConfigurationList = 981EE0CC20094D500018DD5D /* Build configuration list for PBXProject "bitbay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 981EE0C820094D500018DD5D;
+			productRefGroup = 981EE0D220094D500018DD5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				981EE0D020094D500018DD5D /* bitbay */,
+				981EE0E220094D500018DD5D /* bitbayTests */,
+				981EE0ED20094D500018DD5D /* bitbayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		981EE0CF20094D500018DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981EE0D920094D500018DD5D /* Assets.xcassets in Resources */,
+				981EE0DC20094D500018DD5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0E120094D500018DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0EC20094D500018DD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		981EE0CD20094D500018DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981EE0D720094D500018DD5D /* ViewController.swift in Sources */,
+				981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0DF20094D500018DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981EE0E820094D500018DD5D /* bitbayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981EE0EA20094D500018DD5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981EE0F320094D500018DD5D /* bitbayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		981EE0E520094D500018DD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981EE0D020094D500018DD5D /* bitbay */;
+			targetProxy = 981EE0E420094D500018DD5D /* PBXContainerItemProxy */;
+		};
+		981EE0F020094D500018DD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 981EE0D020094D500018DD5D /* bitbay */;
+			targetProxy = 981EE0EF20094D500018DD5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		981EE0DA20094D500018DD5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981EE0DB20094D500018DD5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		981EE0F520094D500018DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		981EE0F620094D500018DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		981EE0F820094D500018DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bitbay/bitbay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		981EE0F920094D500018DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = bitbay/bitbay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		981EE0FB20094D500018DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitbay.app/Contents/MacOS/bitbay";
+			};
+			name = Debug;
+		};
+		981EE0FC20094D500018DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitbay.app/Contents/MacOS/bitbay";
+			};
+			name = Release;
+		};
+		981EE0FE20094D500018DD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = bitbay;
+			};
+			name = Debug;
+		};
+		981EE0FF20094D500018DD5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = bitbayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = bitbay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		981EE0CC20094D500018DD5D /* Build configuration list for PBXProject "bitbay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981EE0F520094D500018DD5D /* Debug */,
+				981EE0F620094D500018DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981EE0F720094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981EE0F820094D500018DD5D /* Debug */,
+				981EE0F920094D500018DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981EE0FA20094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981EE0FB20094D500018DD5D /* Debug */,
+				981EE0FC20094D500018DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981EE0FD20094D500018DD5D /* Build configuration list for PBXNativeTarget "bitbayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981EE0FE20094D500018DD5D /* Debug */,
+				981EE0FF20094D500018DD5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 981EE0C920094D500018DD5D /* Project object */;
+}
