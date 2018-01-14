@@ -61,12 +61,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func getJsonFromUrl(key: String, url: NSURL) {
-        URLSession.shared.dataTask(with: (url as URL?)!, completionHandler: {(data, response, error) -> Void in
-            if let jsonObj = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary {
-                self.results[key] =  String(format: "%@", jsonObj!.value(forKey: "last") as! CVarArg)
-                self.bulidTitle()
+        if ReachabilityTest.isConnectedToNetwork() {
+            URLSession.shared.dataTask(with: (url as URL?)!, completionHandler: {(data, response, error) -> Void in
+                if let jsonObj = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary {
+                    self.results[key] =  String(format: "%@", jsonObj!.value(forKey: "last") as! CVarArg)
+                    self.bulidTitle()
+                }
+            }).resume()
             }
-        }).resume()
     }
     
     func constructUrl() {

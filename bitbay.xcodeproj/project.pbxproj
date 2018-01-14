@@ -13,6 +13,7 @@
 		981EE0DC20094D500018DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0DA20094D500018DD5D /* Main.storyboard */; };
 		981EE0E820094D500018DD5D /* bitbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0E720094D500018DD5D /* bitbayTests.swift */; };
 		981EE0F320094D500018DD5D /* bitbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0F220094D500018DD5D /* bitbayUITests.swift */; };
+		982F6F78200B651E0086360E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982F6F77200B651E0086360E /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		981EE0EE20094D500018DD5D /* bitbayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitbayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981EE0F220094D500018DD5D /* bitbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitbayUITests.swift; sourceTree = "<group>"; };
 		981EE0F420094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982F6F77200B651E0086360E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		982F6F7A200B672E0086360E /* liblog_SystemConfiguration.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblog_SystemConfiguration.tbd; path = usr/lib/log/liblog_SystemConfiguration.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				981EE0E620094D500018DD5D /* bitbayTests */,
 				981EE0F120094D500018DD5D /* bitbayUITests */,
 				981EE0D220094D500018DD5D /* Products */,
+				982F6F79200B672E0086360E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +106,7 @@
 				981EE0DA20094D500018DD5D /* Main.storyboard */,
 				981EE0DD20094D500018DD5D /* Info.plist */,
 				981EE0DE20094D500018DD5D /* bitbay.entitlements */,
+				982F6F77200B651E0086360E /* Reachability.swift */,
 			);
 			path = bitbay;
 			sourceTree = "<group>";
@@ -122,6 +127,14 @@
 				981EE0F420094D500018DD5D /* Info.plist */,
 			);
 			path = bitbayUITests;
+			sourceTree = "<group>";
+		};
+		982F6F79200B672E0086360E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982F6F7A200B672E0086360E /* liblog_SystemConfiguration.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				981EE0D720094D500018DD5D /* ViewController.swift in Sources */,
 				981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */,
+				982F6F78200B651E0086360E /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +438,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = bitbay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/log",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -438,6 +456,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = bitbay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/log",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
