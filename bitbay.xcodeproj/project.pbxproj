@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D420094D500018DD5D /* AppDelegate.swift */; };
-		981EE0D720094D500018DD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D620094D500018DD5D /* ViewController.swift */; };
 		981EE0D920094D500018DD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0D820094D500018DD5D /* Assets.xcassets */; };
 		981EE0DC20094D500018DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0DA20094D500018DD5D /* Main.storyboard */; };
 		981EE0E820094D500018DD5D /* bitbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0E720094D500018DD5D /* bitbayTests.swift */; };
 		981EE0F320094D500018DD5D /* bitbayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0F220094D500018DD5D /* bitbayUITests.swift */; };
+		98E68E9E200E8F8000B189CD /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68E9D200E8F8000B189CD /* Coin.swift */; };
+		98E68EA0200E8FFA00B189CD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68E9F200E8FFA00B189CD /* NotificationController.swift */; };
+		98E68EA2200E910500B189CD /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68EA1200E910500B189CD /* Constans.swift */; };
+		98E68EA5200E929000B189CD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68EA4200E929000B189CD /* Helper.swift */; };
+		98E68EA7200E964700B189CD /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68EA6200E964700B189CD /* ApiController.swift */; };
+		98E68EAD200EAD2800B189CD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E68EAC200EAD2800B189CD /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 /* Begin PBXFileReference section */
 		981EE0D120094D500018DD5D /* bitbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitbay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981EE0D420094D500018DD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		981EE0D620094D500018DD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		981EE0D820094D500018DD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981EE0DB20094D500018DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		981EE0DD20094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +50,12 @@
 		981EE0EE20094D500018DD5D /* bitbayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitbayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		981EE0F220094D500018DD5D /* bitbayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitbayUITests.swift; sourceTree = "<group>"; };
 		981EE0F420094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E68E9D200E8F8000B189CD /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		98E68E9F200E8FFA00B189CD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		98E68EA1200E910500B189CD /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		98E68EA4200E929000B189CD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		98E68EA6200E964700B189CD /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		98E68EAC200EAD2800B189CD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,12 @@
 		981EE0D320094D500018DD5D /* bitbay */ = {
 			isa = PBXGroup;
 			children = (
+				98E68EA3200E927800B189CD /* helpers */,
+				98E68E9C200E8F3C00B189CD /* constans */,
+				98E68E9B200E8F3500B189CD /* views */,
+				98E68E9A200E8F2200B189CD /* models */,
+				98E68E99200E8F1A00B189CD /* controllers */,
 				981EE0D420094D500018DD5D /* AppDelegate.swift */,
-				981EE0D620094D500018DD5D /* ViewController.swift */,
 				981EE0D820094D500018DD5D /* Assets.xcassets */,
 				981EE0DA20094D500018DD5D /* Main.storyboard */,
 				981EE0DD20094D500018DD5D /* Info.plist */,
@@ -122,6 +136,47 @@
 				981EE0F420094D500018DD5D /* Info.plist */,
 			);
 			path = bitbayUITests;
+			sourceTree = "<group>";
+		};
+		98E68E99200E8F1A00B189CD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98E68E9F200E8FFA00B189CD /* NotificationController.swift */,
+				98E68EA6200E964700B189CD /* ApiController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		98E68E9A200E8F2200B189CD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				98E68E9D200E8F8000B189CD /* Coin.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		98E68E9B200E8F3500B189CD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				98E68EAC200EAD2800B189CD /* MenuViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		98E68E9C200E8F3C00B189CD /* constans */ = {
+			isa = PBXGroup;
+			children = (
+				98E68EA1200E910500B189CD /* Constans.swift */,
+			);
+			path = constans;
+			sourceTree = "<group>";
+		};
+		98E68EA3200E927800B189CD /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				98E68EA4200E929000B189CD /* Helper.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981EE0D720094D500018DD5D /* ViewController.swift in Sources */,
+				98E68EA0200E8FFA00B189CD /* NotificationController.swift in Sources */,
+				98E68E9E200E8F8000B189CD /* Coin.swift in Sources */,
+				98E68EA7200E964700B189CD /* ApiController.swift in Sources */,
+				98E68EAD200EAD2800B189CD /* MenuViewController.swift in Sources */,
+				98E68EA5200E929000B189CD /* Helper.swift in Sources */,
+				98E68EA2200E910500B189CD /* Constans.swift in Sources */,
 				981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

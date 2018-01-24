@@ -680,18 +680,72 @@
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="hIz-AP-VOD">
+        <!--Menu View Controller-->
+        <scene sceneID="9ob-DP-lwe">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="bitbay" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <viewController storyboardIdentifier="MenuViewController" id="uXD-Cy-Bp2" customClass="MenuViewController" customModule="bitbay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="anC-3V-IKr" customClass="Menu">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Guw-HG-tOo">
+                                <rect key="frame" x="18" y="256" width="76" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Zvv-uy-dCP" id="Kl3-wc-vVB">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="b39-yu-z0V">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="Zvv-uy-dCP"/>
+                                            <menuItem title="Item 2" id="9Yo-0d-28J"/>
+                                            <menuItem title="Item 3" id="kdr-1v-xJK"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZW-NP-Kiw">
+                                <rect key="frame" x="97" y="256" width="76" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="zKw-81-3s7" id="AK7-re-Eze">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="1CW-Gc-ewQ">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="zKw-81-3s7"/>
+                                            <menuItem title="Item 2" id="gzu-BH-qbT"/>
+                                            <menuItem title="Item 3" id="fAa-4Y-dN5"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vqo-RF-niq">
+                                <rect key="frame" x="176" y="256" width="76" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Nmh-Xs-0x7" id="tNR-r8-YT8">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="y6M-do-af6">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="Nmh-Xs-0x7"/>
+                                            <menuItem title="Item 2" id="8yv-l2-Ghl"/>
+                                            <menuItem title="Item 3" id="iJx-Pb-mME"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="coinSelect" destination="rZW-NP-Kiw" id="KRK-fY-PX5"/>
+                        <outlet property="curenncySelect" destination="Vqo-RF-niq" id="eC5-To-QBJ"/>
+                        <outlet property="refresSelect" destination="Guw-HG-tOo" id="V5a-Gj-bEd"/>
+                        <outlet property="tableResults" destination="bkD-iD-lCD" id="4ma-C4-U99"/>
+                    </connections>
                 </viewController>
-                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="hYx-bi-fZq" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <arrayController objectClassName="Coin" id="bkD-iD-lCD"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="94" y="282"/>
         </scene>
     </scenes>
 </document>
