@@ -38,7 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         for item in menu.items {
             if (item.state == NSControl.StateValue.on) {
                 if ((results[item.title]) != nil) {
-                    temp = temp + " " + item.title + ":" + results[item.title]!
+                    temp = temp + " " + item.title + ":" + String(format: "%.2f",(results[item.title]! as NSString).doubleValue)
                 }
             }
         }
