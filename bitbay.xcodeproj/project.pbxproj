@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D420094D500018DD5D /* AppDelegate.swift */; };
-		981EE0D720094D500018DD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0D620094D500018DD5D /* ViewController.swift */; };
 		981EE0D920094D500018DD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0D820094D500018DD5D /* Assets.xcassets */; };
 		981EE0DC20094D500018DD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981EE0DA20094D500018DD5D /* Main.storyboard */; };
 		981EE0E820094D500018DD5D /* bitbayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981EE0E720094D500018DD5D /* bitbayTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		981EE0D120094D500018DD5D /* bitbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitbay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981EE0D420094D500018DD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		981EE0D620094D500018DD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		981EE0D820094D500018DD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981EE0DB20094D500018DD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		981EE0DD20094D500018DD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				981EE0D420094D500018DD5D /* AppDelegate.swift */,
-				981EE0D620094D500018DD5D /* ViewController.swift */,
 				981EE0D820094D500018DD5D /* Assets.xcassets */,
 				981EE0DA20094D500018DD5D /* Main.storyboard */,
 				981EE0DD20094D500018DD5D /* Info.plist */,
@@ -275,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981EE0D720094D500018DD5D /* ViewController.swift in Sources */,
 				981EE0D520094D500018DD5D /* AppDelegate.swift in Sources */,
 				982F6F78200B651E0086360E /* Reachability.swift in Sources */,
 			);
@@ -434,8 +430,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bitbay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -444,6 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -452,8 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bitbay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -462,6 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bw.bitbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
